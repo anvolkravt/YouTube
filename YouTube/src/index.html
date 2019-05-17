@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <title>YouTube Client</title>
+</head>
+<body>
+  <!-- <div class="video__item">
+    <div class="video__links">
+      <a href="" class="video__video-link"></a>
+      <a href="" class="video__title-link"></a>
+    </div>
+    <div class="video__description">
+      <div class="video__description-statistic">
+        <i class="fas fa-user"></i>
+        <span class="video__description-author"></span>
+        <i class="far fa-calendar-plus"></i>
+        <span class="video__description-upload-date"></span>
+        <i class="far fa-eye"></i>
+        <span class="video__description-views"></span>
+      </div>
+      <p class="video__description-about"></p>
+    </div>
+  </div> -->
+
+  <template id="videoItemTemplate">
+    <div class="video__item">
+      <div class="video__links">
+        <img class="preview-pic" alt="clip preview" width="300">
+        <a class="video__title-link" target="_blank"></a>
+      </div>
+      <div class="video__description">
+        <div class="video__description-statistic">
+          <i class="fas fa-user"></i>
+          <span class="video__description-author"></span>
+          <i class="far fa-calendar-plus"></i>
+          <span class="video__description-upload-date"></span>
+          <i class="far fa-eye"></i>
+          <span class="video__description-views"></span>
+        </div>
+        <p class="video__description-about"></p>
+      </div>
+    </div>
+  </template>
+  <script src="../dist/app.bundle.js"></script>
+</body>
+</html>
